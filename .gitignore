@@ -1,0 +1,69 @@
+# Кэш и временные файлы
+__pycache__/
+*.py[cod]
+*$PYTHONPYCACHEPREFIX/
+*.so
+*.pyd
+*.o
+*.out
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+BCTAvenv/
+.venv/
+.VENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Логи и отладочная информация
+logs/
+*.log
+debug.log
+coverage.xml
+nosetests.xml
+*.cover
+.hypothesis/
+*.mo
+*.pot
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.bak
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Файлы конфигурации и зависимостей
+Pipfile
+Pipfile.lock
+poetry.lock
+requirements.txt
+
+# Кэш pytest
+.cache/
+
+# Бинарные файлы и сборки
+dist/
+build/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Docker
+*.dockerignore
+
+# PyInstaller
+*.spec
+
+# mypy
+.mypy_cache/
+
+# PyCharm
+/.idea/
