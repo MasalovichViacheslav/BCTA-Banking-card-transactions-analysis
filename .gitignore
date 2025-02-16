@@ -39,12 +39,6 @@ nosetests.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Файлы конфигурации и зависимостей
-Pipfile
-Pipfile.lock
-poetry.lock
-requirements.txt
-
 # Кэш pytest
 .cache/
 
